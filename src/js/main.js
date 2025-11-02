@@ -1,3 +1,4 @@
+import '../css/styles.css';
 import { fetchImages } from './pixabay-api';
 import {
   buildCardsMarkup,
@@ -7,7 +8,6 @@ import {
 
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import '../css/styles.css';
 
 const form = document.querySelector('#search-form');
 const loader = document.querySelector('#loader');
