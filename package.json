@@ -6,15 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-advancedjs-hw-01/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^7.1.12"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Alexander Repeta <yuliashkodina1@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "izitoast": "^1.4.0",
