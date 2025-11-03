@@ -1,4 +1,3 @@
-// УВАГА: встав свій ключ нижче
 const API_KEY = '53062520-ab6df8030023bb65348d73bcb'; //
 const BASE_URL = 'https://pixabay.com/api/';
 

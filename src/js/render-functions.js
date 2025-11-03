@@ -1,7 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-// 1) Повертає готову розмітку карток (щоб додати за ОДНУ операцію)
+// 1) Повертає готову розмітку карток
 export function buildCardsMarkup(images) {
   return images
     .map(
@@ -33,7 +33,7 @@ export function drawGallery(markup) {
       captionDelay: 250,
     });
   }
-  lightbox.refresh(); // обов'язково після додавання елементів
+  lightbox.refresh();
 }
 
 // 3) Допоміжне: очистити галерею
