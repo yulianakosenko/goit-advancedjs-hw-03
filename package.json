@@ -16,7 +16,7 @@
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^7.1.12"
   },
-  "author": "Alexander Repeta <yuliashkodina1@gmail.com>",
+  "author": "Yuliya Kostenko <yuliashkodina1@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "izitoast": "^1.4.0",
