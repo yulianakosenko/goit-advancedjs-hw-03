@@ -1,10 +1,10 @@
 import '../css/styles.css';
-import { fetchImages } from './pixabay-api';
+import { fetchImages } from './js/pixabay-api';
 import {
   buildCardsMarkup,
   drawGallery,
   clearGallery,
-} from './render-functions';
+} from './js/render-functions';
 
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
