@@ -1,4 +1,4 @@
-import '../css/styles.css';
+import './css/styles.css';
 import { fetchImages } from './js/pixabay-api';
 import {
   buildCardsMarkup,
